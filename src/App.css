@@ -1,8 +1,18 @@
 .App {
   padding: 30px;
   display: flex;
+  background-color: #c8fdc8;
+  height: 100vh;
 }
 
 .App > div {
   margin-right: 50px;
+}
+
+.todolist {
+  border: 2px solid #7a7a7a;
+  background-color: #b8adff;
+  border-radius: 5px;
+  padding: 15px;
+  height: max-content;
 }

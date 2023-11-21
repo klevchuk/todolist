@@ -1,4 +1,4 @@
-import React from "react";
+import React, {FC} from "react";
 
 type TaskType = {
     id: number
@@ -11,9 +11,9 @@ type PropsType = {
     tasks: Array<TaskType>
 }
 
-export function Todolist(props: PropsType) {
+export const Todolist: FC<PropsType> = (props: PropsType) => {
     return (
-        <div>
+        <div className="todolist">
             <h3>{props.title}</h3>
             <div>
                 <input/>
